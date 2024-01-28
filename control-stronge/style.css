@@ -1,0 +1,63 @@
+.container{
+width: 600px;
+padding: 20px;
+background-color: whitesmoke;
+position: absolute;
+left: 50%;
+transform: translate(-50%);
+top: 20%;
+border-radius: 5px;
+box-shadow: 5px 5px 5px gray;
+}
+.firstInput{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(218, 199, 199, 0.338);
+    border: 1px solid #eee;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    outline: none;
+    margin: 2px -3px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    font-family: system-ui;
+    text-transform: capitalize;
+    font-weight: bold;
+  background-color: transparent;
+   
+    cursor: pointer;
+    border: 2px solid #03A9F4;
+    color: black;
+    margin: 10px;
+    user-select: none;
+    transition: background 0.5;
+}
+button:hover{
+    background: #03A9F4;
+   
+    color: white;
+}
+
+.allBtn{
+display: flex;
+justify-content: space-around;
+}
+
+.placeToShowReuslt{
+    margin: 10px 0;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgb(200, 187, 187);
+    width: 94%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+body{
+    background-color: rgba(128, 128, 128, 0.614);
+}
